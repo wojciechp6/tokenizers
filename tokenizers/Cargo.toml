@@ -77,7 +77,8 @@ esaxx_fast = ["esaxx-rs/cpp"]
 progressbar = ["indicatif"]
 http = ["hf-hub"]
 cli = ["clap"]
-unstable_wasm = ["fancy-regex", "getrandom/js"]
+unstable_wasm = ["fancy-regex"]
+unstable_wasm_js = ["getrandom/js", "unstable_wasm"]
 
 [dev-dependencies]
 criterion = "0.5"
